@@ -1,0 +1,161 @@
+<!-- Invite to Apply Start -->
+
+<div class="modal fade" id="invite-to-apply" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog invite_to_apply">
+        <div class="modal-content">
+            <div class="modal-body multi-step-form Remote-pg">
+                <!-- multi step signup form start -->
+                <section class="employer-signUp-pg ">
+                    <div class="row justify-content-center ">
+                        <div class="col-12 col-lg-12">
+                            <div class="employer-signUp-form ">
+                                <div class="upper">
+                                </div>
+                                <div class="vid_inst_content">
+                                    <div class="text-center">
+                                        <h1>Invite to apply</h1>
+                                    </div>
+                                    <div class="ita_body">
+                                        <div class="ita-body-head">
+                                            <h3><strong>Invite Mario Dunkin to apply</strong></h3>
+                                            <h3>Choose from your job post;</h3>
+                                        </div>
+                                        <div class="ita_body_main">
+                                            <div class="itabm_item">
+                                                <div>
+                                                    <h4><strong>Executive Marketing Specialist</strong></h4>
+                                                    <h4>New York, NY</h4>
+                                                    <h4>Posted: June 21, 2022</h4>
+                                                </div>
+                                                <label class="custom-checkbox">
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="itabm_item">
+                                                <div>
+                                                    <h4><strong>Executive Marketing Specialist</strong></h4>
+                                                    <h4>New York, NY</h4>
+                                                    <h4>Posted: June 21, 2022</h4>
+                                                </div>
+                                                <div class="ita_body_checkbox">
+                                                    <label class="custom-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="itabm_item">
+                                                <div>
+                                                    <h4><strong>Executive Marketing Specialist</strong></h4>
+                                                    <h4>New York, NY</h4>
+                                                    <h4>Posted: June 21, 2022</h4>
+                                                </div>
+                                                <div class="ita_body_checkbox">
+                                                    <label class="custom-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="itabm_item">
+                                                <div>
+                                                    <h4><strong>Executive Marketing Specialist</strong></h4>
+                                                    <h4>New York, NY</h4>
+                                                    <h4>Posted: June 21, 2022</h4>
+                                                </div>
+                                                <div class="ita_body_checkbox">
+                                                    <label class="custom-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="itabm_item">
+                                                <div>
+                                                    <h4><strong>Executive Marketing Specialist</strong></h4>
+                                                    <h4>New York, NY</h4>
+                                                    <h4>Posted: June 21, 2022</h4>
+                                                </div>
+                                                <div class="ita_body_checkbox">
+                                                    <label class="custom-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ita_body_btn">
+                                            <button class="theme-btn3" data-bs-dismiss="modal">Cancel</button>
+                                            <button class="theme-btn3" data-bs-toggle="modal"
+                                                data-bs-target="#invite-to-apply2">Invite</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- multi step signup form end -->
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Invite to Apply End -->
+
+
+<div class="modal fade" id="invite-to-apply2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog invite_to_apply invite_to_apply2 ">
+        <div class="modal-content">
+            <div class="modal-body multi-step-form Remote-pg">
+                <!-- multi step signup form start -->
+                <section class="employer-signUp-pg ">
+                    <div class="row justify-content-center ">
+                        <div class="col-12 col-lg-12">
+                            <div class="employer-signUp-form ">
+                                <div class="upper">
+                                </div>
+                                <div class="vid_inst_content">
+                                    <div class="text-center">
+                                        <h1>Invite to apply</h1>
+                                    </div>
+                                    <div class="ita_body">
+                                        <div class="ita-body-head">
+                                            <h3><strong>Write you invitation message</strong></h3>
+                                        </div>
+                                        <div class="ita-body-body">
+                                            <textarea name="" id="" rows="19" placeholder="">Dear [Candidate's Name],
+
+I hope this message finds you well. Your impressive profile on Talent Tube has caught our eye, and we're thrilled to extend an exclusive invitation to you for our open position as a [Job Title] at [Company name ] 
+
+Here's a snapshot of the exciting opportunity:
+
+Position: [Job Title]
+Location: [City, State]
+Your Impact: [Briefly outline the key contributions and responsibilities]
+What We Value: [Highlight a few key skills or qualifications]
+
+We look forward to reviewing your application and potentially welcoming you to the [Company name] family. If you have any questions or would like to learn more about the role, feel free to reach out.
+
+Best regards,
+                                            </textarea>
+
+                                        </div>
+                                        <div class="ita_body_btn">
+                                            <button class="theme-btn3" data-bs-dismiss="modal">Cancel</button>
+                                            <button class="theme-btn3">Invite</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- multi step signup form end -->
+            </div>
+
+        </div>
+    </div>
+</div>

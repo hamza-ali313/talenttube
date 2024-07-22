@@ -1,0 +1,336 @@
+
+<!--  *************************************** settings pg modal start *******************************************-->
+
+<!--change_email form Modal start -->
+<div class="modal fade setting-pg" id="change_email" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-body multi-step-form">
+                <section class="employer-signUp-pg">
+                    <div class="row justify-content-center ">
+                        <div class="col-12 col-lg-12">
+                            <div class="employer-signUp-form">
+                                <div class="upper"></div>
+                                <div class="employer-signUp-form-head">
+                                    <h1>Change email</h1>
+                                </div>
+                                <form action="">
+                                    <div class="form-step step active_step ">
+                                        <div class="row gy-3">
+                                            <div class="col-12 col-lg-12">
+                                                <div class="">
+                                                    <label for="">Enter new email address</label>
+                                                    <input type="email" class="" id="" placeholder="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-12">
+                                                <div class="">
+                                                    <label for="">Confirm new email address</label>
+                                                    <input type="password" class="" id="" placeholder="">
+                                                </div>
+                                            </div>
+                                            <div class="text-center btns">
+                                                <a href="javascript:void()" class="theme-btn3">submit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- change_email form Modal start -->
+<!--change_Phone form Modal start -->
+<div class="modal fade setting-pg" id="change_phone" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-body multi-step-form">
+                <section class="employer-signUp-pg">
+                    <div class="row justify-content-center ">
+                        <div class="col-12 col-lg-12">
+                            <div class="employer-signUp-form">
+                                <div class="upper"></div>
+                                <div class="employer-signUp-form-head">
+                                    <h1>Change phone</h1>
+                                </div>
+                                <form action="">
+                                    <div class="form-step step active_step ">
+                                        <div class="row gy-3">
+                                            <div class="col-12 col-lg-12">
+                                                <div class="">
+                                                    <label for="">Enter new phone number</label>
+                                                    <input type="email" class="" id="" placeholder="">
+                                                </div>
+                                            </div>
+                                            <div class="text-center btns">
+                                                <a href="javascript:void()" class="theme-btn3">submit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- change_Phone form Modal start -->
+<!--change_password form Modal start -->
+<div class="modal fade setting-pg" id="change__currpassword" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-body multi-step-form">
+                <section class="employer-signUp-pg">
+                    <div class="row justify-content-center ">
+                        <div class="col-12 col-lg-12">
+                            <div class="employer-signUp-form">
+                                <div class="upper"></div>
+                                <div class="employer-signUp-form-head">
+                                    <h1>Change password</h1>
+                                </div>
+                                <form action="">
+                                    <div class="form-step step active_step ">
+                                        <div class="row gy-3">
+                                            <div class="col-12 col-lg-12">
+                                                <div class="">
+                                                    <label for="">Enter current password</label>
+                                                    <input type="email" class="" id="" placeholder="">
+                                                </div>
+                                            </div>
+                                            <div class="text-center btns">
+                                                <a href="javascript:void()" class="theme-btn3" data-bs-toggle="modal"
+                                                    data-bs-target="#change_password" type="button">submit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- change_password form Modal start -->
+<!--change_password form Modal start -->
+<div class="modal fade setting-pg" id="change_password" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-body multi-step-form">
+                <section class="employer-signUp-pg">
+                    <div class="row justify-content-center ">
+                        <div class="col-12 col-lg-12">
+                            <div class="employer-signUp-form">
+                                <div class="upper"></div>
+                                <div class="employer-signUp-form-head">
+                                    <h1>Change password</h1>
+                                </div>
+                                <form action="">
+                                    <div class="form-step step active_step ">
+                                        <div class="row gy-3">
+                                            <div class="col-12 col-lg-12">
+                                                <div class="">
+                                                    <label for="">Enter new password</label>
+                                                    <input type="email" class="" id="" placeholder="">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-12">
+                                                <div class="">
+                                                    <label for="">Confirm new password</label>
+                                                    <input type="password" class="" id="" placeholder="">
+                                                </div>
+                                            </div>
+                                            <div class="text-center btns">
+                                                <a href="javascript:void()" class="theme-btn3">submit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- change_password form Modal start -->
+
+<!--uns all notifications form Modal start -->
+<div class="modal fade setting-pg" id="uns_all_notifications" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-body multi-step-form">
+                <section class="employer-signUp-pg">
+                    <div class="row justify-content-center ">
+                        <div class="col-12 col-lg-12">
+                            <div class="employer-signUp-form">
+                                <div class="upper"></div>
+                                <div class="form-step step active_step ">
+                                    <div class="row gy-3">
+                                        <div class="col-12 col-lg-12">
+                                            <div class="text-center">
+                                                <h2>Are you sure you want to unsubscribe to all saved notifications?
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <div class="text-center btns">
+                                            <a href="javascript:void()" class="theme-btn" data-bs-toggle="modal"
+                                                data-bs-target="#uns_all_notif_back" type="button">confirm</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- uns all notifications form Modal start -->
+
+<!--uns all notifications back form Modal start -->
+<div class="modal fade setting-pg" id="uns_all_notif_back" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-body multi-step-form">
+                <section class="employer-signUp-pg">
+                    <div class="row justify-content-center ">
+                        <div class="col-12 col-lg-12">
+                            <div class="employer-signUp-form">
+                                <div class="upper"></div>
+                                <div class="form-step step active_step ">
+                                    <div class="row gy-3">
+                                        <div class="col-12 col-lg-12">
+                                            <div class="text-center">
+                                                <h2>You have successfully unsubscribed to all email notifications
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <div class="text-center btns">
+                                            <a href="javascript:void()" class="theme-btn">back</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- uns all notifications back form Modal start -->
+
+<!--unscrib form Modal start -->
+<div class="modal fade setting-pg" id="unscrib" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-body multi-step-form">
+                <section class="employer-signUp-pg">
+                    <div class="row justify-content-center ">
+                        <div class="col-12 col-lg-12">
+                            <div class="employer-signUp-form">
+                                <div class="upper"></div>
+                                <div class="form-step step active_step ">
+                                    <div class="row gy-3">
+                                        <div class="col-12 col-lg-12">
+                                            <div class="text-center">
+                                                <h2>Are you sure you want to unsubscribe to the PREMIUM subscription?
+                                                </h2>
+                                                <h3>Remember, employers appreciate candidates who make an effort to
+                                                    present themselves professionally, and a well-prepared video can set
+                                                    you apart from other job seekers.
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="text-center btns">
+                                            <ul>
+                                                <li>
+                                                    <a href="javascript:void()" class="theme-btn">cancel</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void()" class="theme-btn">unsubscribe</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- unscrib form Modal start -->
+
+<!-- verify-Otp action modal start -->
+<div class="modal fade" id="verify-Otp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" id="sign-up-admin">
+        <div class="modal-content">
+            <div class="modal-body multi-step-form">
+                <section class="employer-signUp-pg">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-12">
+                            <div class="employer-signUp-form">
+                                <div class="upper"></div>
+                                <!-- <div class="employer-signUp-form-head">
+                                    <h2 >A confirmation code is sent to your email address.
+                                    </h2>
+                                </div> -->
+                                <div class="card bg-white border-0"
+                                    style="box-shadow: 0 12px 15px rgba(0, 0, 0, 0.02);">
+                                    <div class="card-body text-center">
+                                        <h3>A confirmation code is sent to your email address.</h3>
+                                        <h2>Please verify this action</h2>
+                                        <br>
+                                        <div class="otp-field mb-4">
+                                            <input type="number" id="digit1" maxlength="1"
+                                                oninput="moveToNext(this, 'digit2')" />
+                                            <input type="number" id="digit2" maxlength="1"
+                                                oninput="moveToNext(this, 'digit3')" disabled />
+                                            <input type="number" id="digit3" maxlength="1"
+                                                oninput="moveToNext(this, 'digit4')" disabled />
+                                            <input type="number" id="digit4" maxlength="1"
+                                                oninput="moveToNext(this, 'digit5')" disabled />
+                                            <input type="number" id="digit5" maxlength="1"
+                                                oninput="moveToNext(this, 'digit6')" disabled />
+                                            <input type="number" id="digit6" maxlength="1"
+                                                oninput="moveToNext(this, null)" disabled />
+                                        </div>
+                                        <br>
+                                        <a href="admin.php" class="btn theme-btn mb-3">
+                                            Verify
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- verify-Otp action modal end -->
+
+<!--  *************************************** settings pg modal end *******************************************-->
+
+
+

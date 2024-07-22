@@ -1,0 +1,131 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Picture Cropping</title>
+    <!-- Include Cropper.js -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css" rel="stylesheet">
+    <style>
+        /* Add custom styles for modal and image container */
+        #modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 9999;
+        }
+
+        #modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Profile Picture -->
+    <img id="profile-picture" src="default-profile-picture.jpg" alt="Profile Picture" style="cursor: pointer">
+
+    <!-- Modal -->
+    <div id="modal">
+        <div id="modal-content">
+            <input type="file" id="upload-image" accept="image/*">
+            <div id="image-container"></div>
+            <button id="crop-button">Crop Image</button>
+            <button id="save-button">Save</button>
+        </div>
+    </div>
+
+    <!-- Include Cropper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>
+    <!-- Your script -->
+    <script src="script.js"></script>
+</body>
+
+<script>
+    // script.js
+
+    // Function to set the cropped image as the profile picture
+    function setProfilePicture(dataURL) {
+        const profilePicture = document.getElementById('profile-picture');
+        profilePicture.src = dataURL;
+        // Close the modal
+        closeModal();
+    }
+
+    // Function to close the modal
+    function closeModal() {
+        const modal = document.getElementById('modal');
+        modal.style.display = 'none';
+    }
+
+    // Function to initialize Cropper.js for the uploaded image
+    function initializeCropper(image) {
+        const cropper = new Cropper(image, {
+            aspectRatio: 1, // Set your desired aspect ratio for cropping
+            viewMode: 1,
+            autoCropArea: 1,
+        });
+        return cropper;
+    }
+
+    // Function to handle the 'Crop Image' button click
+    function handleCropButtonClick() {
+        const cropper = document.getElementById('image-container').cropper;
+        const croppedData = cropper.getCroppedCanvas().toDataURL();
+        setProfilePicture(croppedData);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        // Open modal when clicking on profile picture
+        const profilePicture = document.getElementById('profile-picture');
+        profilePicture.addEventListener('click', () => {
+            const modal = document.getElementById('modal');
+            modal.style.display = 'block';
+        });
+
+        // Initialize Cropper.js when an image is uploaded
+        const uploadInput = document.getElementById('upload-image');
+        uploadInput.addEventListener('change', function () {
+            const files = this.files;
+            if (files && files[0]) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    const imageUrl = e.target.result;
+                    const imageContainer = document.getElementById('image-container');
+                    imageContainer.innerHTML = '';
+                    const image = document.createElement('img');
+                    image.src = imageUrl;
+                    image.alt = 'Uploaded Image';
+                    imageContainer.appendChild(image);
+                    // Initialize Cropper.js for the uploaded image
+                    const cropper = initializeCropper(image);
+                    // Add the cropper instance to the image container
+                    imageContainer.cropper = cropper;
+                };
+                reader.readAsDataURL(files[0]);
+            }
+        });
+
+        // Handle 'Crop Image' button click
+        const cropButton = document.getElementById('crop-button');
+        cropButton.addEventListener('click', handleCropButtonClick);
+
+        // Close modal when 'Save' button is clicked
+        const saveButton = document.getElementById('save-button');
+        saveButton.addEventListener('click', closeModal);
+    });
+
+</script>
+
+</html>

@@ -1,0 +1,285 @@
+
+.profile-right-box.expe {
+  margin: 0;
+}
+
+
+line number 4878
+.jobs2-main-body.chat-sec .jobs3-main-body-left {
+    height: 789px;
+}
+
+line number 5403
+ul.proj-man-sec {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    padding: 0 0 0 40px;
+
+}
+
+talents pg css start
+
+.jobs3-main-body-right .profile-right-box {
+  margin: 0 0 20px 0 !important;
+}
+
+.jobs3-main-body-right ul.ul-skills {
+  padding: 0 10px 20px 40px;
+}
+
+.jobs3-main-body-right .profile-right-box-upper h2 {
+  padding: 0 0 0 22px;
+}
+
+.jobs3-main-body-right .profile-right-box.expe .jobs3-main-body-left {
+  overflow-y: scroll;
+  height: 489px;
+}
+
+.jobs3-main-body-right .profile-right-box.expe .jobs3-main-body-left {
+  overflow-y: scroll;
+  height: 489px;
+}
+
+.jobs3-main-body-right .profile-right-box.expe .proj-man {
+  padding: 20px 10px 10px 30px !important
+}
+
+;
+
+.jobs3-main-body-right .profile-right-box.expe {
+  margin: 0 0 20px 0 !important;
+}
+
+.jobs3-main-body-right h2 {
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: initial;
+  font-family: 'Poppins';
+  font-weight: 700;
+  padding: 0 0 0 0;
+  color: #000;
+}
+
+.jobs3-main-body-right h6 {
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: initial;
+  font-family: 'Poppins';
+  font-weight: 500;
+  padding: 0 0 0 0;
+  color: #000;
+}
+
+.jobs3-main-body-right .upload-box ul.ul-skills {
+  display: unset;
+  padding: 0 0 0 0 !important;
+}
+
+.jobs3-main-body-right .upload-box ul.ul-skills li:before {
+  left: 20px;
+}
+
+
+.jobs3-main-body-right.inner {
+  padding: 0 20px 0px 10px;
+  overflow-y: scroll;
+}
+
+.jobs3-main-body-right .upload-box ul.ul-skills li {
+  text-align: left;
+  padding: 0 0 0 38px;
+}
+
+.jobs3-main-body-right .upload-box h2 {
+  text-align: left;
+  padding: 0 0 10px 20px;
+}
+
+
+.jobs3-main-body-right .upload-vid-sec {
+  margin: unset
+}
+
+.jobs3-main-body-right .viewable-btns {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 12px;
+}
+.viewable-btns button {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding: 6px 44px;
+    border-radius: 6px;
+}
+
+.msg-area {
+  padding: 15px 0px 5px 40px;
+  background-color: #e1e1e1;
+  margin: 2px;
+  border: 1px solid #ccc;
+}
+
+.msg-area form textarea {
+  border: none;
+  background-color: transparent;
+  padding: 2px 0;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  margin: 0;
+  width: 95%;
+  height: 130px;
+}
+
+.chat-left .side_menu {
+  padding-left: 40px;
+}
+
+.chat-left .side_menu .dropdown button {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: #000;
+}
+
+.chat-left .side_menu i {
+  font-size: 25px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.chat-right .chat-right-scroll {
+  overflow-y: scroll;
+  height: 382px;
+  overflow-x: hidden;
+}
+
+.jobs2-main-body.chat-sec .jobs3-main-body-left {
+  height: 535px;
+}
+
+
+.jobs3-main-body-right .viewable-btns {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px 0 20px 0;
+}
+
+/* invite to apply modal start */
+.modal-dialog.invite_to_apply {
+  max-width: 600px;
+}
+
+.invite_to_apply .ita_body h3 {
+  padding: 0px;
+  font-size: 17px;
+  padding: 0px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.invite_to_apply .vid_inst_content h1 {
+  margin-bottom: 0;
+}
+
+.ita-body-head {
+  border-bottom: 2px solid #ccc;
+  padding: 17px 0;
+}
+
+.ita_body_main {
+  margin: 30px 0;
+  overflow-y: scroll;
+  padding-right: 20px;
+  height: 260px;
+  overflow-x: hidden;
+}
+
+.itabm_item h4 {
+  font-size: 14px !important;
+  padding: 0;
+  margin: 3px 0 !important;
+}
+
+.itabm_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+
+
+.ita_body_btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-checkbox {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom-checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ccc;
+}
+
+.custom-checkbox input:checked+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 9px;
+  top: 5px;
+  width: 7px;
+  height: 12px;
+  border: solid #FFF;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.custom-checkbox input:checked+.checkmark:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(1, 97, 176);
+  background: linear-gradient(180deg, rgba(1, 97, 176, 1) 0%, rgba(7, 152, 245, 1) 74%);
+}
+
+.modal-dialog.invite_to_apply2 {
+  max-width: 620px;
+}
+
+.invite_to_apply2 .ita-body-body textarea {
+  resize: none;
+  background: transparent;
+  font-weight: 500;
+}
+
+.invite_to_apply2 .ita-body-body {
+  padding: 20px 0;
+}
+
+/* invite to apply modal end */
